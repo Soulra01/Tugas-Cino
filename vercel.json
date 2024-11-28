@@ -1,9 +1,10 @@
 {
     "rewrites": [
-      {
-        "source": "/",
-        "destination": "/components/home.html"
-      }
+      { "source": "/", "destination": "components/home.html" },
+      { "source": "/aboutUs", "destination": "components/aboutUs.html" },
+      { "source": "/category", "destination": "components/category.html" },
+      { "source": "/login", "destination": "components/login.html" },
+      { "source": "/register", "destination": "components/register.html" }
     ]
   }
   
